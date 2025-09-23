@@ -2,5 +2,5 @@ Este projeto tem como objetivo identificar clientes insatisfeitos com serviços 
 
 Classificar o sentimento dos usuários (Satisfeito, Insatisfeito, Neutro)
 Calcular a taxa de insatisfação por serviço
-Gerar um dataset estruturado para alimentar modelos futuros de predição de churn
-Ideal para projetos acadêmicos em Ciência de Dados, Engenharia de Software e Gestão de Relacionamento com Clientes (CRM).
+Gerar um dataset estruturado para alimentar modelos futuros de predição de churn.
+
