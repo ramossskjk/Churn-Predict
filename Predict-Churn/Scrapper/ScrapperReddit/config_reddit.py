@@ -1,0 +1,3 @@
+REDDIT_CLIENT_ID = "YTEHGkWUFVCxrLSaMeZIWw"
+REDDIT_CLIENT_SECRET = "OGQVOsPcjJDKu95OhT9xmRIteIzfiQ"
+REDDIT_USER_AGENT = "scraper-churn:v1.0 (by /u/Nice-Cockroach618)"
