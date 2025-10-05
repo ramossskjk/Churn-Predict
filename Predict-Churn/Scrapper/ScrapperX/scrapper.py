@@ -15,14 +15,44 @@ NEGATIVE_WORDS = [
     "falso", "enganou", "tarifa abusiva", "cobrança errada", "atendimento horrível",
     "nunca mais", "pior", "incompetente", "desapontado", "fraude", "trapaceiro",
     "não recomendo", "mal atendido", "não resolveu", "perdi dinheiro", "prejuizo" 
+    "porra", "caralho", "merda", "filho da puta", "fdp", "puta que pariu", "vai se foder", "se foder", "cacete", "bosta", "bostaa", "merdaaa",
+    "que porra é essa", "que merda é essa", "tá de sacanagem", "tô farto", "já chega", "chega né", "não aguento mais",
+    "me fodeu", "me lascou", "me roubaram", "me enganaram", "fui lesado", "fui fudido", "fuderam comigo",
+
+                                  ---- English---
+    
+    "scam", "bullshit", "worst", "terrible", "awful", "horrible", "fuck", "fucking", "shit", "garbage", "trash", "ripoff", "fraud",
+    "worst service ever", "never again", "dont recommend", "waste of money", "broken", "useless", "overpriced", "disappointed", "angry", "furious",
+    "this sucks", "total scam", "fake", "liar", "cheated", "stolen", "not working", "slow as hell", "customer service sucks"
+
 ]
 
 POSITIVE_WORDS = [
-    "ótimo", "bom", "excelente", "perfeito", "recomendo", "amei", "gostei",
-    "rápido", "eficiente", "atendimento bom", "suporte excelente", "melhor",
-    "valeu", "satisfatório", "confiável", "sem problemas", "nota 10", "top",
-    "agradeço", "parabéns", "profissional", "resolveram rápido", "bom serviço",
-    "atendeu bem", "foi ótimo", "me ajudou", "superou expectativas"
+    
+    "ótimo", "bom", "excelente", "perfeito", "maravilhoso", "sensacional", "incrível", "fantástico", "amei", "gostei", "apaixonei", "recomendo", "super recomendo", "indico", "top", "show", "nota 10", "10/10", "5 estrelas",
+    "rápido", "ágil", "eficiente", "prático", "fácil", "sem burocracia", "resolveram rápido", "solução imediata",
+    "atendimento excelente", "suporte ótimo", "atendeu bem", "educado", "prestativo", "atencioso", "profissional", "gentil",
+    "resolveu", "funcionou", "deu certo", "me ajudou", "salvou meu dia", "superou expectativas", "melhor que eu esperava",
+    "confiável", "seguro", "transparente", "honesto", "sério", "responsável", "qualidade", "bom serviço", "sem problemas",
+    "valeu", "obrigado", "agradeço", "muito obrigado", "parabéns", "vocês arrasaram", "equipe nota 10",
+    
+                                            ---- English---
+    
+    "awesome", "amazing", "perfect", "best", "love it", "great", "excellent", "fantastic", "brilliant", "outstanding",
+    "highly recommend", "works perfectly", "fast support", "saved me", "thank you", "you guys rock", "5 stars", "top notch",
+    "reliable", "trustworthy", "smooth", "no issues", "easy to use", "well done", "impressed", "exceeded expectations",
+    "awesome", "amazing", "fantastic", "excellent", "outstanding", "brilliant", "incredible", "superb", "phenomenal", "stellar",
+    "perfect", "flawless", "impeccable", "top-notch", "first-class", "world-class", "exceptional", "remarkable", "fabulous", "splendid",
+    "love it", "loved it", "i love", "i loved", "highly recommend", "strongly recommend", "10/10", "five stars", "5 stars",
+    "best ever", "best in class", "best service", "best product", "best support", "best experience",
+    "works perfectly", "works like a charm", "smooth", "seamless", "hassle-free", "easy to use", "user-friendly", "intuitive",
+    "fast", "quick", "lightning fast", "responsive", "reliable", "stable", "consistent",
+    "great support", "awesome support", "helpful team", "responsive team", "saved me", "they saved me", "went above and beyond",
+    "customer service is amazing", "support team rocks", "thank you team", "you guys are awesome", "you guys rock",
+    "thank you", "thanks a lot", "big thanks", "huge thanks", "much appreciated", "well done", "kudos", "props to you",
+    "you nailed it", "you crushed it", "impressed", "blown away", "exceeded my expectations", "wow",
+    "trustworthy", "reliable", "dependable", "honest", "transparent", "professional", "quality", "premium", "worth every penny",
+    "great value", "fair price", "no regrets", "glad i chose", "happy customer", "satisfied customer"
 ]
 
 def classify_sentiment(text):
@@ -132,3 +162,4 @@ else:
         )
 
 print(f"\n✅ Coleta concluída! {inseridos} tweets salvos no banco de dados.")
+
