@@ -19,7 +19,7 @@ NEGATIVE_WORDS = [
     "que porra é essa", "que merda é essa", "tá de sacanagem", "tô farto", "já chega", "chega né", "não aguento mais",
     "me fodeu", "me lascou", "me roubaram", "me enganaram", "fui lesado", "fui fudido", "fuderam comigo",
 
-                                  ---- English---
+                                  
     
     "scam", "bullshit", "worst", "terrible", "awful", "horrible", "fuck", "fucking", "shit", "garbage", "trash", "ripoff", "fraud",
     "worst service ever", "never again", "dont recommend", "waste of money", "broken", "useless", "overpriced", "disappointed", "angry", "furious",
@@ -36,7 +36,7 @@ POSITIVE_WORDS = [
     "confiável", "seguro", "transparente", "honesto", "sério", "responsável", "qualidade", "bom serviço", "sem problemas",
     "valeu", "obrigado", "agradeço", "muito obrigado", "parabéns", "vocês arrasaram", "equipe nota 10",
     
-                                            ---- English---
+                                        
     
     "awesome", "amazing", "perfect", "best", "love it", "great", "excellent", "fantastic", "brilliant", "outstanding",
     "highly recommend", "works perfectly", "fast support", "saved me", "thank you", "you guys rock", "5 stars", "top notch",
@@ -162,4 +162,5 @@ else:
         )
 
 print(f"\n✅ Coleta concluída! {inseridos} tweets salvos no banco de dados.")
+
 
