@@ -9,7 +9,7 @@ if not X_BEARER_TOKEN:
 
 BEARER_TOKEN = X_BEARER_TOKEN
 
-NEGATIVE_WORDS = [
+NEGATIVE_WORDS = {
     "péssimo", "ruim", "choro", "chateado", "furioso", "raiva", "odio", "não aguento",
     "demorou", "lento", "erro", "bug", "não funciona", "cancelar", "quero sair",
     "falso", "enganou", "tarifa abusiva", "cobrança errada", "atendimento horrível",
